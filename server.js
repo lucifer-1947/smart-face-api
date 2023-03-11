@@ -10,10 +10,10 @@ const { handleProfile } = require('./controllers/profile');
 const db = knex({
     client: 'pg',
     connection: {
-        host: 'dpg-cg6dl3o2qv28u2p7jm9g-a',
+        host: process.env.HOST,
         port: 5432,
         user: 'rajkumarguggilla',
-        password: 'GPJoDFTbohKeuHocq3u03oSJ8VPlwGiP',
+        password: process.env.PASS,
         database: 'smartface'
     }
 });
