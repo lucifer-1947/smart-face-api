@@ -13,7 +13,7 @@ const db = knex({
         host: 'dpg-cg6dl3o2qv28u2p7jm9g-a',
         port: 5432,
         user: 'rajkumarguggilla',
-        password: '',
+        password: 'GPJoDFTbohKeuHocq3u03oSJ8VPlwGiP',
         database: 'smartface'
     }
 });
